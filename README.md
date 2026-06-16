@@ -33,15 +33,19 @@
 
 ### 6.1 Fase de Preparación
 Verificación del estado operativo del agente en el sistema.
-![Estado del Agente](2026-06-16_13-32.png)
+<img width="432" height="110" alt="2026-06-16_13-32" src="https://github.com/user-attachments/assets/419d4723-9a54-4a8b-a875-8b896fde4cfe" />
+
 
 ### 6.2 Fase de Ejecución (Simulación)
 Simulación de ataque de fuerza bruta SSH, generando registros de fallos de autenticación.
-![Intento de Fuerza Bruta](2026-06-16_13-41.png)
+![Intento de Fuerza Bruta]
+<img width="645" height="341" alt="2026-06-16_13-41" src="https://github.com/user-attachments/assets/937a0004-bdbc-4988-878a-555480a42b6e" />
 
 ### 6.3 Fase de Análisis (Detección)
 Visualización del Dashboard de Wazuh mostrando la correlación de eventos y la escala de severidad (Nivel 10).
-![Detección en Wazuh](2026-06-16_15-14_2.png)
+![Detección en Wazuh]
+<img width="1275" height="217" alt="2026-06-16_15-01" src="https://github.com/user-attachments/assets/870cc9b7-6a75-4fa9-8db7-a2f792704ac1" />
+
 
 ## 7. Conclusiones y Remediación
 * **Conclusiones:** Se demostró la eficacia del SIEM para escalar incidentes. La monitorización de logs de autenticación es crítica para la detección de ataques de fuerza bruta.
