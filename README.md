@@ -26,7 +26,7 @@
 
 ## 5. Metodología
 * **5.1 Fase de Preparación:** Verificación de la comunicación agente-servidor mediante `/var/ossec/bin/wazuh-control info` y estado del servicio.
-* **5.2 Fase de Ejecución (Simulación):Activación del servicio SSH en el agente (host objetivo) y ejecución de intentos de autenticación fallidos desde una fuente externa utilizando credenciales inexistentes.
+* 5.2 Fase de Ejecución (Simulación):Activación del servicio SSH en el agente (host objetivo) y ejecución de intentos de autenticación fallidos desde una fuente externa utilizando credenciales inexistentes.
 * **5.3 Fase de Análisis (Detección):** Correlación de logs en el Dashboard de Wazuh identificando los IDs de regla 5710 y 2502.
 
 ## 6. Resultados y Evidencias
