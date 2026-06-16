@@ -78,7 +78,7 @@ Visualización del Dashboard de Wazuh mostrando la correlación de eventos y la 
 
 ## 5. Methodology
 * **5.1 Preparation Phase:** Verification of agent-server communication via `/var/ossec/bin/wazuh-control info` and service status.
-* **5.2 Execution Phase (Simulation):Activation of the SSH service on the agent (target host) and execution of failed authentication attempts from an external source using non-existent credentials.
+* 5.2 Execution Phase (Simulation):Activation of the SSH service on the agent (target host) and execution of failed authentication attempts from an external source using non-existent credentials.
 * **5.3 Analysis Phase (Detection):** Log correlation in the Wazuh Dashboard identifying rule IDs 5710 and 2502.
 
 ## 6. Results and Evidence
